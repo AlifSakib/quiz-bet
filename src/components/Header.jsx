@@ -54,34 +54,34 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <a
-              href="/"
+            <Link
+              to="/statistics"
               aria-label="Product pricing"
               title="Product pricing"
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Statistics
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/"
+            <Link
+              to="/blog"
               aria-label="About us"
               title="About us"
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              About us
-            </a>
+              Blog
+            </Link>
           </li>
           <li>
-            <a
-              href="/"
+            <Link
+              to="/about"
               className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-400 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
               aria-label="Sign up"
               title="Sign up"
             >
-              Sign up
-            </a>
+              About Us
+            </Link>
           </li>
         </ul>
         <div className="lg:hidden">

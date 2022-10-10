@@ -1,8 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
+import About from "../components/About";
+import Blog from "../components/Blog";
 import ErrorPage from "../components/ErrorPage";
 import Home from "../components/Home";
 import Quiz from "../components/Quiz";
 import Root from "../components/Root";
+import Statistics from "../components/Statistics";
 import Topics from "../components/Topics";
 
 export const router = createBrowserRouter([
@@ -32,6 +35,18 @@ export const router = createBrowserRouter([
           );
         },
         element: <Quiz></Quiz>,
+      },
+      {
+        path: "/statistics",
+        element: <Statistics></Statistics>,
+      },
+      {
+        path: "/blog",
+        element: <Blog></Blog>,
+      },
+      {
+        path: "/about",
+        element: <About></About>,
       },
     ],
   },

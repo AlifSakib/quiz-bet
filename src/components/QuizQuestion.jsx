@@ -1,9 +1,12 @@
-import React from "react";
+import { faEyeLowVision } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React, { useState } from "react";
 import { toast } from "react-toastify";
 
 const QuizQuestion = ({ question }) => {
   console.log(question);
-  const { question: qstn, correctAnswer, id, options } = question;
+  const { question: qstn, correctAnswer, options } = question;
+  const [toggle, setToggle] = useState(false);
 
   const checkCorrect = (selectedOption) => {
     if (selectedOption === correctAnswer) {
@@ -17,8 +20,12 @@ const QuizQuestion = ({ question }) => {
     }
   };
 
+  const showAnswer = () => {
+    setToggle(!toggle);
+  };
+
   return (
-    <div className="border my-10">
+    <div className="border my-10 relative">
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <div>
@@ -59,6 +66,20 @@ const QuizQuestion = ({ question }) => {
             </div>
           </div>
         ))}
+      </div>
+      <div
+        onClick={showAnswer}
+        className="hover:text-emerald-700 text-pink-600 absolute top-10 right-10 text-lg"
+      >
+        {toggle ? (
+          <div className="bg-black px-6 py-1 rounded-full text-white">
+            <button>{correctAnswer}</button>
+          </div>
+        ) : (
+          <button>
+            <FontAwesomeIcon icon={faEyeLowVision}></FontAwesomeIcon>
+          </button>
+        )}
       </div>
     </div>
   );
