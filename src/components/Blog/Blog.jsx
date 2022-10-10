@@ -106,8 +106,17 @@ const Blog = () => {
               How does useRef() hook work ?
             </a>
             <p className="mb-2 text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit sed quia
-              consequuntur magni voluptatem doloremque.
+              As like it name Ref means Refference , whats refference ?
+              Refference of DOM Element . We know react take care of all dom
+              manipulation so dont have to write any dom element , we just
+              change the state , pass the prop . control the side effects. But
+              there can be some momemt where we have towork with DOM , So thats
+              why React gives us UseRef() . For example : If we want that when
+              we enter to page that have a form we want to sow the cursor on the
+              form field by default and if we want to do that we have to handle
+              Dom. Some how we need to target the input field and call the
+              .focus method . and this thing we can do with react by using
+              useRef() hook .
             </p>
             <a
               href="/"
