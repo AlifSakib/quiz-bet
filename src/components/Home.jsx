@@ -12,7 +12,7 @@ const Home = () => {
                 Quiz Bet
               </p>
             </div>
-            <h2 className="max-w-lg mb-6  text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+            <h2 className="max-w-lg mb-6  text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none font-poppins">
               An investment in knowledge
               <br className="" />
               pays the{" "}

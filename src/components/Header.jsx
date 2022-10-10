@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -6,8 +7,8 @@ const Header = () => {
   return (
     <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div class="relative flex items-center justify-between">
-        <a
-          href="/"
+        <Link
+          to="/"
           aria-label="Company"
           title="Company"
           class="inline-flex items-center"
@@ -30,27 +31,27 @@ const Header = () => {
           <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
             Quiz Bet
           </span>
-        </a>
+        </Link>
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>
-            <a
-              href="/"
+            <Link
+              to="/home"
               aria-label="Our product"
               title="Our product"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/"
+            <Link
+              to="/topics"
               aria-label="Our product"
               title="Our product"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              Statistics
-            </a>
+              Topics
+            </Link>
           </li>
           <li>
             <a
@@ -59,7 +60,7 @@ const Header = () => {
               title="Product pricing"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              Blogs
+              Statistics
             </a>
           </li>
           <li>
@@ -110,14 +111,14 @@ const Header = () => {
               <div class="p-5 bg-white border rounded shadow-sm">
                 <div class="flex items-center justify-between mb-4">
                   <div>
-                    <a
-                      href="/"
+                    <Link
+                      to="/"
                       aria-label="Company"
                       title="Company"
                       class="inline-flex items-center"
                     >
                       <svg
-                        class="w-8 text-deep-purple-accent-400"
+                        class="w-8 text-sky-400 rounded-full"
                         viewBox="0 0 24 24"
                         strokeLinejoin="round"
                         strokeWidth="2"
@@ -132,9 +133,9 @@ const Header = () => {
                         <rect x="14" y="11" width="7" height="12" />
                       </svg>
                       <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                        Company
+                        Quiz Bet
                       </span>
-                    </a>
+                    </Link>
                   </div>
                   <div>
                     <button
@@ -155,14 +156,14 @@ const Header = () => {
                 <nav>
                   <ul class="space-y-4">
                     <li>
-                      <a
-                        href="/"
+                      <Link
+                        to="/home"
                         aria-label="Our product"
                         title="Our product"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        Product
-                      </a>
+                        Home
+                      </Link>
                     </li>
                     <li>
                       <a
@@ -171,7 +172,7 @@ const Header = () => {
                         title="Our product"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        Features
+                        Topics
                       </a>
                     </li>
                     <li>
@@ -181,7 +182,7 @@ const Header = () => {
                         title="Product pricing"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        Pricing
+                        Statistics
                       </a>
                     </li>
                     <li>
