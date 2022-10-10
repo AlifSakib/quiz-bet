@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import About from "../components/About";
-import Blog from "../components/Blog";
+import Blog from "../components/Blog/Blog";
 import ErrorPage from "../components/ErrorPage";
 import Home from "../components/Home";
 import Quiz from "../components/Quiz";
