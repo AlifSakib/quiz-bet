@@ -26,11 +26,13 @@ const Blog = () => {
               title="Visit the East"
               className="inline-block mb-3 text-2xl font-bold leading-8 transition-colors duration-200 hover:text-deep-purple-accent-700 "
             >
-              What is The Purpose Of React Hook ?
+              What is The Purpose Of React Router ?
             </a>
             <p className="mb-2 text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit sed quia
-              consequuntur magni voluptatem doloremque.
+              React Router is a standerd libraby for manage routing in React.
+              React Router allows changing the browser URL without reloading the
+              page , It change the UI part what we want to change but not
+              changing everything.
             </p>
             <a
               href="/"
@@ -64,8 +66,13 @@ const Blog = () => {
               How does Context API Work ?
             </a>
             <p className="mb-2 text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit sed quia
-              consequuntur magni voluptatem doloremque.
+              React Context Api are likes global variable , as we know we can
+              share a global variable anywhere in our window , Context Api are
+              somthing like that , that means we create a context api in the
+              root and we will be able to sahre it in all components. Context
+              Api is alternative of "Props Drilling ". Props drilling is a long
+              rocess we have to pass props grandParent to father then father to
+              clind and goes on , but context api are easier to use .
             </p>
             <a
               href="/"
