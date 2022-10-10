@@ -1,6 +1,6 @@
 import Lottie from "lottie-react";
 import React from "react";
-import { useRouteError } from "react-router-dom";
+import { Link, useRouteError } from "react-router-dom";
 import render from "../assets/showerror.json";
 const ErrorPage = () => {
   const error = useRouteError();
@@ -17,6 +17,13 @@ const ErrorPage = () => {
             {error.statusText || error.message}
           </span>
         </h1>
+      </div>
+      <div className="mt-10">
+        <Link to="/home">
+          <button className="bg-violet-600 px-6 py-1 rounded-md text-white">
+            Back To Home
+          </button>
+        </Link>
       </div>
     </div>
   );

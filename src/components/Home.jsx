@@ -1,6 +1,7 @@
 import Lottie from "lottie-react";
 import { Link } from "react-router-dom";
 import render from ".././assets/e-learning-platform.json";
+import Topics from "./Topics";
 
 const Home = () => {
   return (
@@ -55,6 +56,7 @@ const Home = () => {
           <Lottie animationData={render} loop={true}></Lottie>
         </div>
       </div>
+      <Topics></Topics>
     </div>
   );
 };
