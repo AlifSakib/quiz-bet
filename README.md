@@ -4,7 +4,7 @@
 
 ## Live Site
 
-https://quiz-bet.netlify.app/
+<https://quiz-bet.netlify.app/>
 
 ## Acknowledgements
 
@@ -30,7 +30,7 @@ To run tests, run the following command
 
 ## API Reference
 
-#### Get all items
+### Get all items
 
 ```http
   GET https://openapi.programming-hero.com/api/quiz
