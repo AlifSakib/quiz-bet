@@ -52,7 +52,7 @@ const Footer = () => {
               title="Our phone"
               className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
-              850-123-5021
+              +880-177-577-8144
             </a>
           </div>
           <div className="flex">
@@ -76,7 +76,7 @@ const Footer = () => {
               title="Our address"
               className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
-              312 Lovely Street, NY
+              54 , Khilgaon , DH
             </a>
           </div>
         </div>

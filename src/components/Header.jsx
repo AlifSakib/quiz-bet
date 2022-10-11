@@ -40,7 +40,7 @@ const Header = () => {
               title="Our product"
               className={({ isActive }) =>
                 isActive
-                  ? "font-medium tracking-wide  transition-colors duration-200 hover:text-purple-400 text-purple-400"
+                  ? "font-medium tracking-wide  transition-colors duration-200 hover:text-purple-400 text-purple-400 underline underline-offset-4"
                   : "font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               }
             >
@@ -54,7 +54,7 @@ const Header = () => {
               title="Our product"
               className={({ isActive }) =>
                 isActive
-                  ? "font-medium tracking-wide  transition-colors duration-200 hover:text-purple-400 text-purple-400"
+                  ? "font-medium tracking-wide  transition-colors duration-200 hover:text-purple-400 text-purple-400 underline underline-offset-4"
                   : "font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               }
             >
@@ -68,7 +68,7 @@ const Header = () => {
               title="Product pricing"
               className={({ isActive }) =>
                 isActive
-                  ? "font-medium tracking-wide  transition-colors duration-200 hover:text-purple-400 text-purple-400"
+                  ? "font-medium tracking-wide  transition-colors duration-200 hover:text-purple-400 text-purple-400 underline underline-offset-4"
                   : "font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               }
             >
@@ -82,7 +82,7 @@ const Header = () => {
               title="About us"
               className={({ isActive }) =>
                 isActive
-                  ? "font-medium tracking-wide  transition-colors duration-200 hover:text-purple-400 text-purple-400"
+                  ? "font-medium tracking-wide  transition-colors duration-200 hover:text-purple-400 text-purple-400 underline underline-offset-4"
                   : "font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               }
             >
@@ -96,7 +96,7 @@ const Header = () => {
               title="Product pricing"
               className={({ isActive }) =>
                 isActive
-                  ? "font-medium tracking-wide  transition-colors duration-200 hover:text-purple-400 text-purple-400"
+                  ? "font-medium tracking-wide  transition-colors duration-200 hover:text-purple-400 text-purple-400 underline underline-offset-4"
                   : "font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               }
             >
@@ -176,54 +176,74 @@ const Header = () => {
                 <nav>
                   <ul className="space-y-4">
                     <li>
-                      <Link
+                      <NavLink
                         to="/home"
                         aria-label="Our product"
                         title="Our product"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        className={({ isActive }) =>
+                          isActive
+                            ? "font-medium tracking-wide  transition-colors duration-200 hover:text-purple-400 text-purple-400 underline underline-offset-4"
+                            : "font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        }
                       >
                         Home
-                      </Link>
+                      </NavLink>
                     </li>
                     <li>
-                      <Link
+                      <NavLink
                         to="/topics"
                         aria-label="Our product"
                         title="Our product"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        className={({ isActive }) =>
+                          isActive
+                            ? "font-medium tracking-wide  transition-colors duration-200 hover:text-purple-400 text-purple-400 underline underline-offset-4"
+                            : "font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        }
                       >
                         Topics
-                      </Link>
+                      </NavLink>
                     </li>
                     <li>
-                      <Link
+                      <NavLink
                         to="/statistics"
                         aria-label="Product pricing"
                         title="Product pricing"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        className={({ isActive }) =>
+                          isActive
+                            ? "font-medium tracking-wide  transition-colors duration-200 hover:text-purple-400 text-purple-400 underline underline-offset-4"
+                            : "font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        }
                       >
                         Statistics
-                      </Link>
+                      </NavLink>
                     </li>
                     <li>
-                      <Link
+                      <NavLink
                         to="/blog"
                         aria-label="About us"
                         title="About us"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        className={({ isActive }) =>
+                          isActive
+                            ? "font-medium tracking-wide  transition-colors duration-200 hover:text-purple-400 text-purple-400 underline underline-offset-4"
+                            : "font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        }
                       >
                         Blogs
-                      </Link>
+                      </NavLink>
                     </li>
                     <li>
-                      <Link
+                      <NavLink
                         to="/about"
                         aria-label="About us"
                         title="About us"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        className={({ isActive }) =>
+                          isActive
+                            ? "font-medium tracking-wide  transition-colors duration-200 hover:text-purple-400 text-purple-400 underline underline-offset-4"
+                            : "font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        }
                       >
                         About us
-                      </Link>
+                      </NavLink>
                     </li>
                   </ul>
                 </nav>

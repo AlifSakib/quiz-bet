@@ -2,14 +2,15 @@
 
 ![quizbet](https://user-images.githubusercontent.com/61325788/194966774-757ebd09-788a-400d-8aa6-3ca48c545938.png)
 
-##Live Site 
+## Live Site
+
 https://quiz-bet.netlify.app/
 
 ## Acknowledgements
 
- - This is a Educational Website
- - This Project is build with ReactJs and Tailwind
- - Used KitWInd as a component libraby
+- This is a Educational Website
+- This Project is build with ReactJs and Tailwind
+- Used KitWInd as a component libraby
 
 ## Deployment
 
@@ -19,9 +20,6 @@ To deploy this project run
   npm run deploy
 ```
 
-
-
-
 ## Running Tests
 
 To run tests, run the following command
@@ -29,7 +27,6 @@ To run tests, run the following command
 ```bash
   npm run test
 ```
-
 
 ## API Reference
 
@@ -45,17 +42,13 @@ To run tests, run the following command
   GET https://openapi.programming-hero.com/api/quiz/${id}
 ```
 
-
-
 ## Appendix
 
 Any additional information goes here
 
-
 ## Authors
 
 - [@alifsakib](https://www.github.com/AlifSakib)
-
 
 ## Features
 
@@ -65,8 +58,6 @@ Any additional information goes here
 - beautiful Toasts
 - Eye Catching Fonts
 
-
-
 ## Installation
 
 Install my-project with npm
@@ -75,7 +66,7 @@ Install my-project with npm
   npm install my-project
   cd my-project
 ```
-    
+
 ## Run Locally
 
 Clone the project
@@ -101,4 +92,3 @@ Start the server
 ```bash
   npm run start
 ```
-
