@@ -44,7 +44,7 @@ const QuizQuestion = ({ question }) => {
             key={index}
             className="max-w-lg space-y-3 sm:mx-auto lg:max-w-xl"
           >
-            <div className="flex items-center p-2 transition-colors duration-200 border rounded shadow group hover:bg-purple-400 hover:border-deep-purple-accent-400 mb-4">
+            <div className="flex items-center p-2 transition-colors duration-200 border rounded shadow group hover:bg-purple-400 hover:border-deep-purple-accent-400 mb-4 cursor-pointer">
               <div className="mr-2">
                 <svg
                   className="w-6 h-6 transition-colors duration-200 text-purple-400 group-hover:text-white sm:w-8 sm:h-8"

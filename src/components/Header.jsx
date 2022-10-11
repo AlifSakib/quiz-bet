@@ -43,7 +43,6 @@ const Header = () => {
                   ? "font-medium tracking-wide  transition-colors duration-200 hover:text-purple-400 text-purple-400"
                   : "font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               }
-              /* className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400" */
             >
               Home
             </NavLink>
