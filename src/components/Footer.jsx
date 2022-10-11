@@ -30,12 +30,13 @@ const Footer = () => {
           </a>
           <div className="mt-6 lg:max-w-sm">
             <p className="text-sm text-gray-800">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam.
+              There’s no doubt that the cost of education is on the rise. The
+              financial concerns of earning your education should never stop you
             </p>
             <p className="mt-4 text-sm text-gray-800">
-              Eaque ipsa quae ab illo inventore veritatis et quasi architecto
-              beatae vitae dicta sunt explicabo.
+              from doing so because, as Benjamin Franklin once said, this
+              investment in yourself will pay you back with interest over your
+              entire lifetime.
             </p>
           </div>
         </div>
@@ -111,8 +112,7 @@ const Footer = () => {
             </a>
           </div>
           <p className="mt-4 text-sm text-gray-500">
-            Bacon ipsum dolor amet short ribs pig sausage prosciutto chicken
-            spare ribs salami.
+            To make a donation and support our shared cause, please reach out to
           </p>
         </div>
       </div>

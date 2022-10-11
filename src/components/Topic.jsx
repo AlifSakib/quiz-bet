@@ -18,12 +18,12 @@ const Topic = ({ quiz }) => {
             <h6 className="mb-2 font-semibold leading-5">{name}</h6>
             <h6>Total Task : {total}</h6>
             <button
-              className="w-full bg-purple-200 py-1 flex items-center justify-center space-x-4 rounded-md"
+              className="w-full bg-purple-500 hover:bg-pink-500 text-white py-1 flex items-center justify-center space-x-4 rounded-md"
               onClick={startQuiz}
             >
               <p>Start Quiz</p>
               <FontAwesomeIcon
-                className="text-purple-600 "
+                className="text-white "
                 icon={faArrowAltCircleRight}
               ></FontAwesomeIcon>
             </button>
