@@ -9,7 +9,7 @@ const Blog = () => {
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded  mb-10 shadow-xl">
           <img className="w-full" src={blogPic1} alt="" />
           <div className="p-5 border border-t-0 ">
-            <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
+            <p className="mb-3 text-xs font-semibold tracking-wide uppercase ">
               <a
                 href="/"
                 className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"
